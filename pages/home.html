@@ -1,10 +1,21 @@
-<!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title></title>
-</head>
-<body>
+<div class="container">
+    Hello {{name}}
+    <ul ng-repeat="list in blacklist">
+        <li>
+            <div>
+                ID - {{list.id}}
+            </div>
+            <div>
+                Type - {{list.type}} - {{list.typeId}}
+            </div>
+            <div>
+                Title - {{list.title}}
+            </div>
+            <div>
+                <img ng-src="img/{{list.typeId}}/{{list.imageUrl}}">
+            </div>
+        </li>
+    </ul>
 
-</body>
-</html>
+    {{phones.length}}
+</div>

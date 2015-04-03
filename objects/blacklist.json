@@ -1,0 +1,25 @@
+[
+  {
+    "id": 0,
+    "typeId": 0,
+    "type": "Магазин",
+    "title": "Green Hills",
+    "imageUrl": "0.jpg"
+  },
+
+  {
+    "id": 1,
+    "typeId": 0,
+    "type": "Магазин",
+    "title": "Фуршет",
+    "imageUrl": "1.jpg"
+  },
+
+  {
+    "id": 2,
+    "typeId": 0,
+    "type": "Магазин",
+    "title": "Linella",
+    "imageUrl": "2.jpg"
+  }
+]
