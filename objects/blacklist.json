@@ -4,7 +4,32 @@
     "typeId": 0,
     "type": "Магазин",
     "title": "Green Hills",
-    "imageUrl": "0.jpg"
+    "imageUrl": "0.jpg",
+    "date": "07.04.2015",
+    "user": [
+      {
+        "id": 0,
+        "userName": "Raynor",
+        "email": "damaskin@live.ru",
+        "message": "Мне не нравится этот магазин. В нем много не свежих товаров и очень плохое обслуживание."
+      }
+    ],
+    "comments": [
+      {
+        "id": 0,
+        "userName": "Raynor",
+        "email": "damaskin@live.ru",
+        "date": "07.04.2015",
+        "text": "Плохой магазин. Очень плохой магазин -("
+      },
+      {
+        "id": 1,
+        "userName": "Joannes",
+        "email": "raynor_nl@mail.ru",
+        "date": "08.04.2015",
+        "text": "Мне тоже этот магазин не нравится"
+      }
+    ]
   },
 
   {
@@ -12,7 +37,32 @@
     "typeId": 0,
     "type": "Магазин",
     "title": "Фуршет",
-    "imageUrl": "1.jpg"
+    "imageUrl": "1.jpg",
+    "date": "07.04.2015",
+    "user": [
+      {
+        "id": 1,
+        "userName": "User1",
+        "email": "damaskin@live.ru",
+        "message": "Плохое обслуживание."
+      }
+    ],
+    "comments": [
+      {
+        "id": 2,
+        "userName": "User2",
+        "email": "damaskin@live.ru",
+        "date": "07.04.2015",
+        "text": "Да, согласен"
+      },
+      {
+        "id": 3,
+        "userName": "User3",
+        "email": "raynor_nl@mail.ru",
+        "date": "08.04.2015",
+        "text": "Нет, это не правда"
+      }
+    ]
   },
 
   {
@@ -20,6 +70,31 @@
     "typeId": 0,
     "type": "Магазин",
     "title": "Linella",
-    "imageUrl": "2.jpg"
+    "imageUrl": "2.jpg",
+    "date": "07.04.2015",
+    "user": [
+      {
+        "id": 2,
+        "userName": "User4",
+        "email": "damaskin@live.ru",
+        "message": "Test message"
+      }
+    ],
+    "comments": [
+      {
+        "id": 4,
+        "userName": "User5",
+        "email": "damaskin@live.ru",
+        "date": "07.04.2015",
+        "text": "Test comment1"
+      },
+      {
+        "id": 5,
+        "userName": "User6",
+        "email": "raynor_nl@mail.ru",
+        "date": "08.04.2015",
+        "text": "Test comment2"
+      }
+    ]
   }
 ]

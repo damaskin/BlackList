@@ -1,21 +1,146 @@
 <div class="container">
-    Hello {{name}}
+
+<div class="wrap">
+    <div ui-view="leftBlock"></div>
+    <div class="wrap_content">
+        <div ui-view="details"></div>
+        <div ui-view="content">
+            <div class="content">
+
+                <div class="timeline"></div>
+                <ul class="items">
+                    <li ng-repeat="list in blacklist | filter:query | orderBy:orderProp">
+                        <div class="popup">
+                            <div class="item_icon">
+                                <a href="">
+                                    <img src="img/app/icon-user-default.png" class="map_icon" alt="Маршрут" title="Route"/>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <!-- DATE -->
+                            <div class="date" title="Departure Date">
+                                <span>{{list.date}}</span>
+                            </div>
+                            <!-- EOUTE TITLE -->
+                            <div class="route_title">
+                                <span title="Route">{{list.type}} - {{list.title}}</span>
+                            </div>
+                            <div class="item_info">
+
+                                <div class="userInfo" ng-repeat="user in blacklist[list.id].user">
+                                    <div>
+                                        {{user.message}}
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="item_user_info">
+                                <div class="user_info_title">
+                                    {{list.type}}
+                                </div>
+                                <div class="avatar">
+                                    <img ng-src="img/{{list.typeId}}/{{list.imageUrl}}">
+                                    <div class="{{Item.status}}" title="Status: Online"></div>
+                                </div>
+                                <div class="username_box">
+                                    <a href="#/tripsProfile">{{list.title}}</a>
+                                </div>
+                                <!--<ul class="user_info_box">
+                                    <li>
+                                        <a href="">
+                                            <span>+12</span>
+                                            rating
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>7</span>
+                                            review
+                                        </a>
+                                    </li>
+                                </ul> -->
+                            </div>
+
+                        </div>
+
+                        <hr>
+                        <ul class="item_menu">
+                            <li>
+                                <button type="button" class="button button-style-action button-rounded">
+                                    Коментарии
+                                </button>
+                            </li>
+                            <li>
+                                <a href="#/tripsItems/{{Item.id}}">Подробнее</a>
+                            </li>
+                            <!--<li>
+                                <a href="">Поделиться</a>
+                            </li>-->
+                        </ul>
+
+
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!--
     <ul ng-repeat="list in blacklist">
         <li>
-            <div>
-                ID - {{list.id}}
+            <div class="enterprise">
+                <div>
+                    ID - {{list.id}}
+                </div>
+                <div>
+                    Type - {{list.type}} - {{list.typeId}}
+                </div>
+                <div>
+                    Title - {{list.title}}
+                </div>
+                <div>
+                    <img ng-src="img/{{list.typeId}}/{{list.imageUrl}}">
+                </div>
             </div>
-            <div>
-                Type - {{list.type}} - {{list.typeId}}
+            <div class="userInfo" ng-repeat="user in blacklist[list.id].user">
+                <div>
+                    id - {{user.id}}
+                </div>
+                <div>
+                    userName - {{user.userName}}
+                </div>
+                <div>
+                    email - {{user.email}}
+                </div>
+                <div>
+                    message - {{user.message}}
+                </div>
             </div>
-            <div>
-                Title - {{list.title}}
-            </div>
-            <div>
-                <img ng-src="img/{{list.typeId}}/{{list.imageUrl}}">
+            <div class="comments" ng-repeat="comments in blacklist[list.id].comments">
+                <div>
+                    id - {{comments.id}}
+                </div>
+                <div>
+                    userName - {{comments.userName}}
+                </div>
+                <div>
+                    email - {{comments.email}}
+                </div>
+                <div>
+                    date - {{comments.date}}
+                </div>
+                <div>
+                    text - {{comments.text}}
+                </div>
             </div>
         </li>
     </ul>
 
-    {{phones.length}}
+    {{blacklist.length}}
+
 </div>
+-->

@@ -5,7 +5,7 @@
 BlackList.controller('BlackListCtrl', ['$scope', '$http', function($scope, $http){
     $scope.name = 'Home';
 
-    $http.get('/objects/blacklist.json').success(function(data){
+    $http.get('objects/blacklist.json').success(function(data){
         $scope.blacklist = data;
     })
 }]);

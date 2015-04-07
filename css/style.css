@@ -3,3 +3,15 @@ body { padding-top: 70px; }
 img {
     max-width: 100px;
 }
+
+.enterprise {
+    color: red;
+}
+
+.userInfo {
+    color: green;
+}
+
+.comments {
+    color: blue;
+}

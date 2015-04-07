@@ -1,0 +1,354 @@
+/* BUTTONS STYLE */
+
+.button {
+    -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);
+    background-color: #eeeeee;
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fbfbfb), color-stop(100%, #e1e1e1));
+    background: -webkit-linear-gradient(top, #fbfbfb, #e1e1e1);
+    background: -moz-linear-gradient(top, #fbfbfb, #e1e1e1);
+    background: -o-linear-gradient(top, #fbfbfb, #e1e1e1);
+    background: linear-gradient(top, #fbfbfb, #e1e1e1);
+    display: -moz-inline-stack;
+    display: inline-block;
+
+    zoom: 1;
+    border: 1px solid #d4d4d4;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 25.6px;
+    font-weight: 300;
+    font-size: 14px;
+    font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: #666666;
+    text-shadow: 0 1px 1px white;
+    margin: 0;
+    text-decoration: none;
+    text-align: center;
+    outline: none;
+}
+
+.button-rounded {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.button-rounded-right {
+    -webkit-border-radius: 0 3px 3px 0;
+    -moz-border-radius: 0 3px 3px 0;
+    -ms-border-radius: 0 3px 3px 0;
+    -o-border-radius: 0 3px 3px 0;
+    border-radius: 0 3px 3px 0;
+}
+
+.button-pill {
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    border-radius: 50px;
+}
+
+.button-circle {
+    -webkit-border-radius: 240px;
+    -moz-border-radius: 240px;
+    -ms-border-radius: 240px;
+    -o-border-radius: 240px;
+    border-radius: 240px;
+    -webkit-box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.2);
+    width: 120px;
+    line-height: 120px;
+    height: 120px;
+    padding: 0;
+    border-width: 4px;
+    font-size: 19px;
+}
+
+/* BUTTON SIZE */
+
+.button-jumbo {
+    font-size: 24px;
+    height: 51.2px;
+    line-height: 51.2px;
+    padding: 0 40.96px;
+}
+
+.button-large {
+    font-size: 19px;
+    height: 38.4px;
+    line-height: 38.4px;
+    padding: 0 30.72px;
+}
+
+.button-small {
+    font-size: 13px;
+    height: 25.6px;
+    line-height: 25.6px;
+    padding: 0 20.48px;
+}
+
+.button-tiny {
+    font-size: 12px;
+    height: 22.4px;
+    line-height: 22.4px;
+    padding: 0 17.92px;
+}
+
+/* END BUTTON SIZE */
+
+/* DEFAULT */
+
+.button-style {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition-property: background;
+    -moz-transition-property: background;
+    -o-transition-property: background;
+    transition-property: background;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    background: #eeeeee;
+    border: none;
+    text-shadow: none;
+}
+
+.button-style:hover {
+    background: #fbfbfb;
+}
+
+.button-style:active {
+    -webkit-transition-duration: 0s;
+    -moz-transition-duration: 0s;
+    -o-transition-duration: 0s;
+    transition-duration: 0s;
+    background: #eeeeee;
+    color: #bbbbbb;
+}
+
+.button-style.disabled {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-appearance: none;
+}
+
+/* END DEFAULT */
+
+/* PRIMARY BUTTON */
+
+.button-style-primary {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition-property: background;
+    -moz-transition-property: background;
+    -o-transition-property: background;
+    transition-property: background;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    background: #00a1cb;
+    color: white;
+    text-shadow: none;
+    border: none;
+}
+
+.button-style-primary:hover {
+    background: #00b5e5;
+}
+
+.button-style-primary:active {
+    -webkit-transition-duration: 0s;
+    -moz-transition-duration: 0s;
+    -o-transition-duration: 0s;
+    transition-duration: 0s;
+    background: #1495b7;
+    color: #00647f;
+}
+
+.button-style-primary.disabled {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-appearance: none;
+}
+
+/* PRIMARY BUTTON */
+
+/* ACTION BUTTON */
+
+.button-style-action {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition-property: background;
+    -moz-transition-property: background;
+    -o-transition-property: background;
+    transition-property: background;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    background: #7db500;
+    color: white;
+    text-shadow: none;
+    border: none;
+}
+
+.button-style-action:hover {
+    background: #8fcf00;
+}
+
+.button-style-action:active {
+    -webkit-transition-duration: 0s;
+    -moz-transition-duration: 0s;
+    -o-transition-duration: 0s;
+    transition-duration: 0s;
+    background: #76a312;
+    color: #486900;
+}
+
+.button-style-action.disabled {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-appearance: none;
+}
+
+/* END ACTION BUTTON */
+
+/* HIGHTLIGHT BUTTON */
+
+.button-style-highlight {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition-property: background;
+    -moz-transition-property: background;
+    -o-transition-property: background;
+    transition-property: background;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    background: #f18d05;
+    color: white;
+    text-shadow: none;
+    border: none;
+}
+
+.button-style-highlight:hover {
+    background: #fa9915;
+}
+
+.button-style-highlight:active {
+    -webkit-transition-duration: 0s;
+    -moz-transition-duration: 0s;
+    -o-transition-duration: 0s;
+    transition-duration: 0s;
+    background: #d8891e;
+    color: #a66103;
+}
+
+.button-style-highlight.disabled {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-appearance: none;
+}
+
+/* END HIGHTLIGHT */
+
+/* CAUTION BUTTON */
+
+.button-style-caution {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition-property: background;
+    -moz-transition-property: background;
+    -o-transition-property: background;
+    transition-property: background;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    background: #e54028;
+    color: white;
+    text-shadow: none;
+    border: none;
+}
+
+.button-style-caution:hover {
+    background: #e8543f;
+}
+
+.button-style-caution:active {
+    -webkit-transition-duration: 0s;
+    -moz-transition-duration: 0s;
+    -o-transition-duration: 0s;
+    transition-duration: 0s;
+    background: #cd5240;
+    color: #ac2815;
+}
+
+.button-style-caution.disabled {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-appearance: none;
+}
+
+/* END CAUTION BUTTON */
+
+/* ROYAL BUTTON */
+
+.button-style-royal {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition-property: background;
+    -moz-transition-property: background;
+    -o-transition-property: background;
+    transition-property: background;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    background: #87318c;
+    color: white;
+    text-shadow: none;
+    border: none;
+}
+
+.button-style-royal:hover {
+    background: #99389f;
+}
+
+.button-style-royal:active {
+    -webkit-transition-duration: 0s;
+    -moz-transition-duration: 0s;
+    -o-transition-duration: 0s;
+    transition-duration: 0s;
+    background: #764479;
+    color: #501d53;
+}
+
+.button-style-royal.disabled {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-appearance: none;
+}
+
+/* END ROYAL BUTTON */

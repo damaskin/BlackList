@@ -1,0 +1,46 @@
+/* AVATAR */
+
+.left_box .avatar {
+    text-align: center;
+    padding: 20px;
+}
+
+.left_box .avatar img {
+    border: 4px solid #ffffff;
+    border-radius: 50px;
+    width: 50px;
+}
+
+/* END AVATAR */
+
+/* USERNAME */
+
+.left_box .username_box {
+    text-align: center;
+}
+
+/* END USERNAME */
+
+.left_box ul {
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+
+.left_box ul li {
+    list-style-type: none;
+}
+
+.left_box ul li:hover {
+    background: #40444b;
+}
+
+.left_box ul li a {
+    color: #9ea1a4;
+    line-height: 50px;
+    display: block;
+    padding-left: 10px;
+}
+
+.left_box ul li a:hover {
+    color: #ffffff;
+}
