@@ -1,11 +1,21 @@
 [
   {
-    "id": 0,
-    "typeId": 0,
-    "type": "Магазин",
-    "title": "Green Hills",
-    "imageUrl": "0.jpg",
+    "id": "0",
     "date": "07.04.2015",
+    "category": [
+      {
+        "catId": 0,
+        "catName": "Магазин"
+      }
+    ],
+    "title": [
+      {
+        "titleId": 0,
+        "titleName": "Green Hills",
+        "imageUrl": "0.jpg",
+        "raiting": 5
+      }
+    ],
     "user": [
       {
         "id": 0,
@@ -34,11 +44,21 @@
 
   {
     "id": 1,
-    "typeId": 0,
-    "type": "Магазин",
-    "title": "Фуршет",
-    "imageUrl": "1.jpg",
     "date": "07.04.2015",
+    "category": [
+      {
+        "catId": 0,
+        "catName": "Магазин"
+      }
+    ],
+    "title": [
+      {
+        "titleId": 0,
+        "titleName": "Фуршет",
+        "imageUrl": "1.jpg",
+        "raiting": 3
+      }
+    ],
     "user": [
       {
         "id": 1,
@@ -67,11 +87,21 @@
 
   {
     "id": 2,
-    "typeId": 0,
-    "type": "Магазин",
-    "title": "Linella",
-    "imageUrl": "2.jpg",
     "date": "07.04.2015",
+    "category": [
+      {
+        "catId": 0,
+        "catName": "Магазин"
+      }
+    ],
+    "title": [
+      {
+        "titleId": 0,
+        "titleName": "Linella",
+        "imageUrl": "2.jpg",
+        "raiting": 9
+      }
+    ],
     "user": [
       {
         "id": 2,
