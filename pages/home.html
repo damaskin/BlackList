@@ -1,12 +1,28 @@
-<div class="container">
-
 <div class="wrap">
-    <div ui-view="leftBlock"></div>
+    <div ui-view="leftBlock">
+
+        <div class="left_box">
+
+            <ul>
+                <li>
+                    <a href=""></a><a href="#/tripsLogin">Sign In</a>
+                </li>
+                <li>
+                    <a href=""></a><a href="#/tripsReg">Sign Up</a>
+                </li>
+                <li>
+                    <a href=""></a><a href="#/tripsProfile">Profile</a>
+                </li>
+            </ul>
+
+        </div>
+
+    </div>
     <div class="wrap_content">
         <div ui-view="details"></div>
         <div ui-view="content">
             <div class="content">
-
+{{blacklist[0].title[0].titleName}}
                 <div class="timeline"></div>
                 <ul class="items">
                     <li ng-repeat="list in blacklist | filter:query | orderBy:orderProp">
@@ -73,7 +89,7 @@
                                 </button>
                             </li>
                             <li>
-                                <a href="#/tripsItems/{{Item.id}}">Подробнее</a>
+                                <a href="/item/{{list.id}}">Подробнее</a>
                             </li>
                             <!--<li>
                                 <a href="">Поделиться</a>
